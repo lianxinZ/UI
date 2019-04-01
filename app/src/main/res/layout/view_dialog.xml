@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#fdb100"
+        android:text="ANOROIO" />
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:hint="Username"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit2"
+        >
+    <Button
+        android:id="@+id/dialog_btn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dialog_btn1"
+        android:text="取消"
+        />
+    </RelativeLayout>
+</RelativeLayout>

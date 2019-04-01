@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/SAbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SimpleAdapter"
+        />
+    <Button
+        android:id="@+id/ADbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SAbtn"
+        android:layout_centerHorizontal="true"
+        android:text="AlertDialog"
+        />
+    <Button
+        android:id="@+id/OMbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ADbtn"
+        android:layout_centerHorizontal="true"
+        android:text="OptionMenu"
+        />
+    <Button
+        android:id="@+id/AMbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OMbtn"
+        android:layout_centerHorizontal="true"
+        android:text="ActionMenu"
+        />
+
+
+
+</RelativeLayout>
