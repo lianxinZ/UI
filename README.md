@@ -108,7 +108,7 @@ String[] names={"Lion","tiger","Monkey","Dog","cat","Elephant"};
 
 ## 4.ActionMode
 ### 关键代码：
-~~~ 
+~~~
    final String[] strings = new String[]{"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX"};
         int imgId = R.mipmap.launch;
         listView = (ListView)findViewById(R.id.lv2);
@@ -156,7 +156,7 @@ String[] names={"Lion","tiger","Monkey","Dog","cat","Elephant"};
 
             }
         });
-     ~~~
+   ~~~
 ### 结果截图：
 <image width='250dp' hight='450dp' src="https://github.com/lianxinZ/UI/blob/master/READMEIMAGE/5.png">
    
